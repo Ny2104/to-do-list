@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: hwb(270 96% 4%);
+    font-family: sans-serif;
+	
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#roundedImage {
+    border-radius: 10%;
+    width: 150px;
+    height: auto; 
+    margin-top: 90px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: purple;
+}
+
+#addToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#addToDo:active {
+    background: rgb(237, 237, 241);
+}
+
+#clearToDo{
+    height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(70, 74, 75);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#clearToDo:active{
+    background: #000;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgb(224, 73, 13);
+    text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 25px;
+}
